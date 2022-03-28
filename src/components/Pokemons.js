@@ -84,14 +84,17 @@ const Pokemons = () => {
         <div className='main_container'>
             <h1 className='title'>POKEDEX</h1>
 
+            <div className="config_container_icon">
 
-            <Link className="link" to={`/pokedex/config`}>
-                <div className="config_container">
-                    <img className='config_img' src={config} alt="Configuration" />
-                </div>
-            </Link>
-            <div id='toggle' className="toggle pointer" onClick={changeMode}></div>
-            <p className='p_toggle'>Dark/Light Mode</p>
+                <Link className="link" to={`/pokedex/config`}>
+                    <div className="config_container">
+                        <img className='config_img' src={config} alt="Configuration" />
+                    </div>
+                </Link>
+                <div id='toggle' className="toggle pointer" onClick={changeMode}></div>
+                <p className='p_toggle'>Dark/Light Mode</p>
+            </div>
+
             <h2 className='title'>Welcome {userName} !!  </h2>
             
             <div className="select_container">
