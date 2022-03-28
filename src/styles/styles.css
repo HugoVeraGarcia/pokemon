@@ -508,7 +508,7 @@ input{
 
 .dark_mode{
     background-color: rgb(58, 57, 57);
-    color: white;
+    /*color: white;*/
 }
 .dark_mode_button{
     background-color: rgb(121, 118, 118);
