@@ -66,6 +66,15 @@ const Pokemons = () => {
 
     }
 
+    const changeMode = () =>{
+        const element = document.body;
+        const toggleButton = document.getElementById('toggle')
+        element.classList.toggle('dark_mode');
+        toggleButton.classList.toggle('dark_mode_button');
+        
+        }
+    
+
     const submit = (e)=> {
         e.preventDefault();
         navigate(`/pokedex/${pokemonName}`);
@@ -81,6 +90,8 @@ const Pokemons = () => {
                     <img className='config_img' src={config} alt="Configuration" />
                 </div>
             </Link>
+            <div id='toggle' className="toggle pointer" onClick={changeMode}></div>
+            <p className='p_toggle'>Dark/Light Mode</p>
             <h2 className='title'>Welcome {userName} !!  </h2>
             
             <div className="select_container">

@@ -1,7 +1,6 @@
 const INITIAL_STATE = {
     userName: '',
-    pokemonPerPage: 32 
-
+    pokemonPerPage: 32,
 }
 
 const reducer = (state = INITIAL_STATE, action) => {
@@ -17,8 +16,7 @@ const reducer = (state = INITIAL_STATE, action) => {
             return{
                 ...state,
                 pokemonPerPage: action.payload
-            }    
-
+            }        
 
     default:
 	    return state;

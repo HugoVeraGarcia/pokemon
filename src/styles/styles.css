@@ -624,3 +624,45 @@ input{
 .inputPokemon{
     text-transform: lowercase;
 }
+
+.toggle{
+    width: 40px;
+    height: 40px;
+    background-color:#f1d441;
+    border-radius: 50%;
+    margin-left: 830px ;
+    margin-top: 20px;
+}
+.p_toggle{
+    margin-left: 830px ;
+    margin-top: 10px;
+    font-weight: 800;
+
+}
+
+.dark_mode{
+    background-color: rgb(58, 57, 57);
+    color: white;
+}
+.dark_mode_button{
+    background-color: rgb(121, 118, 118);
+    color: white;
+}
+
+.pointer {
+    cursor: pointer;
+}
+.p_toggle_info{
+    margin-left: 950px ;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.toggle_info{
+    width: 40px;
+    height: 40px;
+    background-color:#f1d441;
+    border-radius: 50%;
+    margin-left: 990px ;
+    margin-top: 20px;
+}

@@ -21,17 +21,15 @@ const PokemonInfo = () => {
                 setMoves(res.data.moves)
             })
             .catch( ()=> {
-                //alert('no encontrado');
                 navigate('/pokedex/')
             } );
             
         }, [id, navigate])
-
-        console.log('moves:', moves);
-
+    
 
 
         return (
+
         <div className='main_container_info'>            
             <div className='first_block'>
                 <img className='pokemonText' src={pokemonText} alt="Pokemon" />
