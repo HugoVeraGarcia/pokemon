@@ -87,23 +87,18 @@ const PokemonInfo = () => {
             </div>
             <div className="second_block">
                 <div className='encounter'><p className='p_encounter'>
-                <i className="fa-solid fa-location-dot mrb10"></i>encounters</p></div>
-            <div>
-                <h2>Movements</h2>
-                <br />
-
-
-                {
-                    moves.map(element => (
-                        <p key={element.move.name} >{element.move.name}</p>
-                    ))
-                }
-
-
-
-
-
-            </div>
+                    <i className="fa-solid fa-location-dot mrb10"></i>encounters</p>
+                </div>
+                <div className='space'> . </div>
+                <div className='movement'>
+                    <h2>Movements</h2>
+                    <br />
+                    {
+                        moves.map(element => (
+                            <p key={element.move.name} >{element.move.name}</p>
+                        ))
+                    }
+                </div>
             </div>
         </div>
     );
