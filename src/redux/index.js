@@ -12,6 +12,14 @@ const reducer = (state = INITIAL_STATE, action) => {
                 ...state,
                 userName: action.payload
             }
+
+        case "GET_NUMBER_POKEMONS":
+            return{
+                ...state,
+                pokemonPerPage: action.payload
+            }    
+
+
     default:
 	    return state;
   }

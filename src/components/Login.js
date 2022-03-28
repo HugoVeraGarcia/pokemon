@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-//import { Fragment } from 'react';
-//import { set } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
 import ash from "../assets/ash.png"
 import ball from "../assets/pokeball.png"
