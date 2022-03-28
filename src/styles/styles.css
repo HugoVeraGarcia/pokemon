@@ -620,3 +620,7 @@ input{
     background-color: #0AA65D;
     height: 100vh;
 }
+
+.inputPokemon{
+    text-transform: lowercase;
+}

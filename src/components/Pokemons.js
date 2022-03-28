@@ -100,9 +100,10 @@ const Pokemons = () => {
                 <label className='label_search' htmlFor="pokemon_name">Search:</label>
                 <input 
                     type="text" 
+                    className='inputPokemon'
                     id='pokemon_name'
                     placeholder='write Id or Name'
-                    onChange={e=>setPokemonName(e.target.value)}
+                    onChange={e=>setPokemonName((e.target.value).toLocaleLowerCase() )}
                     />
                 <button>Search</button>
 
