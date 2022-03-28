@@ -20,7 +20,10 @@ const PokemonInfo = () => {
                 console.log('from moves',res.data.moves)
                 setMoves(res.data.moves)
             })
-            .catch( ()=> navigate('/pokemons/') );
+            .catch( ()=> {
+                //alert('no encontrado');
+                navigate('/pokedex/')
+            } );
             
         }, [id, navigate])
 
