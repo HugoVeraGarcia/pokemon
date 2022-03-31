@@ -10,6 +10,7 @@
     box-sizing: border-box;
 }
 
+
 .input_container{
     background-color: whitesmoke;
     display: flex;
@@ -367,34 +368,35 @@ input{
     font-weight: 900;
     width: 25vw;;
     align-items: center;
-    height: 140px;
+    height: auto;
 }
 
 .type{
     display: flex;
+    flex-direction: column;
 }
 .type1{
     background-color: #F26398;
-    width: 50px;
+    width: 80px;
     height: 40px;
     align-items: center;
     padding-top: 10px;
     margin: 10px 0px;
     text-align: center;
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 .type2{
     background-color:#F2BB16;
-    width: 50px;
+    width: 80px;
     height: 40px;
     align-items: center;
     font-weight:900;
     padding-top: 10px;
-    margin: 10px 5px;
+    margin: 10px 0px;
     text-align: center;
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 .abilities_container{
@@ -404,7 +406,7 @@ input{
     font-weight: 900;
     width: 24vw;
     align-items: center;
-    height: 140px;
+    height: auto;
     margin-left: 10px;
 }
 
@@ -414,27 +416,28 @@ input{
 }
 .abilities{
     display: flex;
+    flex-direction: column;
 }
 .abilities1{
     background-color:rgb(204, 202, 202);
-    width: 50px;
+    width: 80px;
     height: 40px;
     align-items: center;
     padding-top: 10px;
-    margin: 10px 5px;
+    margin: 10px 0px;
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 .abilities2{
     background-color:rgb(204, 202, 202);
-    width: 50px;
+    width: 80px;
     height: 40px;
     align-items: center;
     font-weight:900;
     padding-top: 10px;
     margin: 10px 0px;
     text-align: center;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 .idPokemon{
     margin: 20px;
@@ -656,7 +659,35 @@ input{
         margin-left: 800px;
     }
     
+    .type{
+        display: flex;
+        flex-direction: row;
+    }
+    .abilities{
+        display: flex;
+        flex-direction: row;
+    }
+    .type1{
+        width: 100px;
+        height: 50px;
+        font-size: 1rem;
+    }
+    .type2{
+        width: 100px;
+        height: 50px;
+        font-size: 1rem;
+    }
 
+    .abilities1{
+        width: 100px;
+        height: 50px;
+        font-size: 1rem;
+    }
+    .abilities2{
+        width: 100px;
+        height: 50px;
+        font-size: 1rem;
+    }
 
 }
 
